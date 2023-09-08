@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <button class="up-button">Go Up &#8679;</button>
+    <header>
+        <nav>
+            <logo>
+                Ahmed Sayed
+            </logo>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="homesec">
+            <div class="bg-image"></div>
+            <div class="bg-text">
+                <h2>WELCOME</h2>
+                <h1 style="font-size:50px">I am Ahmed Sayed</h1>
+                <h2>SOFTWARE ENGINEER</h2>
+            </div>
+        </section>
+
+        <section id="about" class="aboutsec">
+            <h1 class="about-title">About me:</h1>
+            <div class="info">
+                <h2 class="about-name">Ahmed Sayed</h2>
+                <h3 class="job-title">web developer and Data analyst</h3>
+                <p class="about-paragraph">I'm a third-year Software Engineering student at Helwan University at
+                    faculty of computers and artificial intelligence, with a GPA of 3.7 out of
+                    4. I have two years of experience in web development with HTML, CSS,
+                    JS, SASS, Bootstrap, PHP, and SQL. I've also worked with ReactJS,
+                    Angular, and ASP.NET. I'm seeking internships to gain
+                    practical knowledge and stay updated with industry requirements.</p>
+                <p><b>From:</b> Egypt</p>
+                <p><b>Lives in:</b> Cairo</p>
+                <p><b>Age:</b> 22</p>
+            </div>
+        </section>
+
+        <section id="skills" class="skillssec">
+            <h1 class="skills-title">My Skills</h1>
+            <div class="skills-slideshow-container">
+                <div class="skills-slide">
+                    <h2>HTML, CSS and JavaScript</h2>
+                </div>
+                <div class="skills-slide">
+                    <h2>React js</h2>
+                </div>
+                <div class="skills-slide">
+                    <h2>C#</h2>
+                </div>
+                <div class="skills-slide">
+                    <h2>ASP.NET</h2>
+                </div>
+                <div class="skills-slide">
+                    <h2>Node js</h2>
+                </div>
+                <div class="skills-slide">
+                    <h2>Excel</h2>
+                </div>
+                <div class="skills-slide">
+                    <h2>Power BI</h2>
+                </div>
+                <div class="skills-slide">
+                    <h2>SQL</h2>
+                </div>
+                <div class="skills-slide">
+                    <h2>My SQL</h2>
+                </div>
+                <div class="skills-slide">
+                    <h2>SQL Server</h2>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projectssec">
+            <h1 class="skills-title">My Projects</h1>
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 5</div>
+                    <a href="https://ahmedsayed55.github.io/JStodo-app/" target="_blank"><img class="project-img" src="./images/js-todo-app.png"></a>
+                    <div class="text">Todo Application in html, css and JavaScript</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 5</div>
+                    <a href="https://ahmedsayed55.github.io/weather-appjs/" target="_blank"><img class="project-img" src="./images/weatherapp.png"></a>
+                    <div class="text">JavaScript weather application</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 5</div>
+                    <a href="https://ahmedsayed55.github.io/simple-calculator/" target="_blank"><img class="project-img" src="./images/calculator.png"></a>
+                    <div class="text">JavaScript simple calculator</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 5</div>
+                    <a href="https://ahmedsayed55.github.io/basic-react-Ecommerce-app/" target="_blank"><img class="project-img" src="./images/ee.png"></a>
+                    <div class="text">ReactJS simple E-commerce application</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">5 / 5</div>
+                    <a href="https://ahmedsayed55.github.io/react-todo-app/" target="_blank"><img class="project-img" src="./images/react todo.png"></a>
+                    <div class="text">ReactJS advanced Todo application</div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+
+            </div>
+            
+            <div class="dots-sec">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
+        </section>
+
+        <section id="contact" class="contactsec">
+            <h1 class="skills-title">My Contacts Information</h1>
+            <div class="conn">
+                <div class="in-flex">
+                    <div class="i-div"><i class="bi bi-telephone-fill"></i></div>
+                    <p class="contact-text">+20 1015679279</p>
+                </div>
+                <div class="in-flex">
+                    <div class="i-div"><i class="bi bi-envelope-at-fill"></i></div>
+                    <p class="contact-text">ahmedsayed21679@gmail.com</p>
+                </div>
+                <div class="in-flex">
+                    <div class="i-div"><i class="bi bi-linkedin"></i></div>
+                    <p class="contact-text"><a class="contact-link" href="https://www.linkedin.com/in/ahmed-sayed-377a4324a/" target="_blank">My LinkedIn Profile</a></p>
+                </div>
+                <div class="in-flex">
+                    <div class="i-div"><i class="bi bi-facebook"></i></div>
+                    <p class="contact-text"><a class="contact-link" href="https://www.facebook.com/profile.php?id=100004054810616" target="_blank">My Facebook profile</a></p>
+                </div>
+                <div class="in-flex">
+                    <div class="i-div"><i class="bi bi-github"></i></div>
+                    <p class="contact-text"><a class="contact-link" href="https://github.com/AhmedSayed55" target="_blank">My github profile</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>+</footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
